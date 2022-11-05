@@ -1,0 +1,231 @@
+@font-face {
+  font-family: "Helvetica LT Std";
+  src: url("../fonts/htstd bold/HelveticaLTStd-Bold.woff2") format("woff2"),
+    url("../fonts/htstd bold/HelveticaLTStd-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Helvetica LT Stdroman";
+  src: url("../fonts/htstdroman/HelveticaLTStd-Roman.woff2") format("woff2"),
+    url("../fonts/htstdroman/HelveticaLTStd-Roman.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 960px;
+  margin: 0 auto;
+}
+
+header::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.logo {
+  margin: 50px 0;
+  float: left;
+}
+
+nav {
+  float: right;
+}
+nav ul {
+  list-style: none;
+}
+nav ul li {
+  display: inline-block;
+  margin: 55px 0;
+}
+nav ul li a {
+  text-decoration: none;
+  color: #000000;
+  font-size: 18px;
+  font-family: "Helvetica LT Std";
+}
+nav ul li a:hover {
+  color: #999999;
+}
+
+span {
+  font-family: "Helvetica LT Std";
+  color: #999999;
+  margin: 0 15px;
+}
+
+h1 {
+  font-size: 32px;
+  font-family: "Helvetica LT Std";
+}
+
+.section-1 p {
+  font-size: 14px;
+  font-family: "Helvetica LT Stdroman";
+  margin: 48px 0;
+}
+
+.section-1 {
+  padding: 100px;
+  text-align: center;
+}
+
+.section-1 button {
+  background-color: #222222;
+  color: #ffffff;
+  padding: 15px 40px;
+  border-radius: 5px;
+  font-family: "Helvetica LT Std";
+  font-size: 18px;
+}
+
+.section-2 h2 {
+  font-family: "Helvetica LT Std";
+  font-size: 30px;
+  margin: 55px 0 45px 0;
+}
+
+.box {
+  display: inline-block;
+  text-align: center;
+  margin-right: 23px;
+  border: 1px solid #cccccc;
+}
+
+.box img {
+  width: 100%;
+}
+
+.box h3 {
+  font-size: 18px;
+  font-family: "Helvetica LT Std";
+  margin: 20px 0 15px 0;
+}
+
+.box p {
+  color: #666666;
+  font-style: italic;
+  font-size: 15px;
+  margin-bottom: 15px;
+}
+
+.section-2 div:last-child {
+  margin-right: 0;
+}
+
+.wrapper {
+  background-color: #e5e5e5;
+  margin: 100px 0 35px 0;
+}
+
+.content-left {
+  width: 48%;
+  float: left;
+}
+
+.content-left h4,
+.content-right h4 {
+  font-size: 30px;
+  padding: 50px 0;
+  font-weight: lighter;
+}
+
+.content-left p {
+  font-size: 15px;
+  line-height: 24px;
+}
+
+.content-left img {
+  margin: 70px 10px 65px 0;
+}
+
+.bottom-content::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.content-right {
+  width: 48%;
+  float: right;
+}
+
+.content-inside-2 {
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 28px;
+}
+
+.content-inside-2 h5 {
+  font-size: 18px;
+  font-family: "Helvetica LT Std";
+}
+
+.content-inside-2 p {
+  font-size: 13px;
+  color: #ca1f1f;
+  margin-top: 20px;
+}
+
+.content-inside-2 p span {
+  font-size: 13px;
+  font-family: none;
+}
+
+.content-inside {
+  border-bottom: 1px solid #cccccc;
+  padding-bottom: 30px;
+}
+
+.content-right div:nth-child(3) {
+  border-bottom: none;
+  margin-top: 30px;
+}
+
+footer {
+  margin-bottom: 100px;
+}
+footer::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+footer p {
+  display: inline-block;
+  font-size: 15px;
+  font-family: "Helvetica LT Std";
+  float: left;
+}
+
+footer p span {
+  color: #ca1f1f;
+  margin: 0;
+}
+
+footer ul {
+  list-style: none;
+  float: right;
+}
+footer ul li {
+  display: inline-block;
+}
+footer ul li a {
+  color: black;
+  text-decoration: none;
+  font-size: 15px;
+  font-family: "Helvetica LT Std";
+}
+footer ul li a:hover {
+  color: #099999;
+}
+
+/*# sourceMappingURL=app.css.map */

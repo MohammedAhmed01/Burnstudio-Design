@@ -1,0 +1,20 @@
+@mixin fix {
+  &::after {
+    content: "";
+    display: block;
+    clear: both;
+  }
+}
+
+@mixin addhovercolor {
+  color: #099999;
+}
+@mixin addcolor {
+  color: black;
+}
+@mixin fontsize {
+  font-size: 15px;
+}
+@mixin fontfamily {
+  font-family: "Helvetica LT Std";
+}
